@@ -28,6 +28,33 @@ Analizar la herramienta ReqView como apoyo a la gestión de requisitos, describi
 6. Demostración práctica.
 7. Conclusiones y referencias bibliográficas.
 
+## Distribución del trabajo — Grupo CES
+
+La exposición GA-SUM-02 (EXP-1) se desarrolla de manera colaborativa entre los tres integrantes del grupo CES. Las responsabilidades se distribuyen para garantizar la participación de todos en la investigación, elaboración de materiales y exposición oral.
+
+| Integrante | Responsabilidades asignadas | Diapositivas | Tiempo estimado |
+|---|---|---|---|
+| Córdova Carreño Mayra Lucila | Introducción, fundamentación conceptual, definición y funcionalidades de ReqView. | 1–5 | 4 minutos |
+| Espinoza Pivaque Angelo Maximiliano | Ventajas, limitaciones, riesgos, comparación con otra herramienta y análisis crítico. | 6–9 | 4 minutos |
+| Saltos Tello Joseph Orlando | Aplicación al Sistema de Tutorías, preparación de la demostración en ReqView, evidencias y conclusiones. | 10–14 | 4 minutos |
+
+### Responsabilidades compartidas
+
+- Verificar las referencias bibliográficas y aplicar el formato IEEE.
+- Revisar conjuntamente el contenido técnico de la presentación.
+- Comprobar la compilación del documento LaTeX/Beamer.
+- Validar que las evidencias correspondan al trabajo realizado.
+- Ensayar la exposición y preparar respuestas a posibles preguntas.
+- Registrar los aportes mediante commits identificables en GitHub.
+
+### Seguimiento de contribuciones
+
+Cada integrante desarrollará las actividades asignadas y registrará sus contribuciones utilizando su cuenta personal de GitHub.
+
+La distribución presentada corresponde a la planificación inicial del equipo y podrá ajustarse de acuerdo con el avance del trabajo.
+
+Los aportes efectivamente realizados se verificarán mediante los archivos, las evidencias y el historial de commits del repositorio.
+
 ## Archivos de la actividad
 
 - `main.tex`: presentación elaborada en LaTeX/Beamer.
