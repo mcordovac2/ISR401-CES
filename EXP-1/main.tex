@@ -9,6 +9,9 @@
 \usepackage[spanish,es-tabla]{babel}
 \usepackage{tgheros}
 \usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{cite}
 
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -41,6 +44,13 @@
 }
 
 \setbeamercolor{structure}{fg=rvorange}
+\setbeamercolor{block title}{fg=white,bg=rvbrown}
+\setbeamercolor{block body}{fg=rvdark,bg=rvcream}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamercolor{bibliography entry author}{fg=rvdark}
+\setbeamercolor{bibliography entry title}{fg=rvdark}
+\setbeamercolor{bibliography entry location}{fg=rvmuted}
+\setbeamercolor{bibliography entry note}{fg=rvmuted}
 
 \setbeamertemplate{navigation symbols}{}
 
@@ -358,7 +368,7 @@ Requisitos claros, desarrollo coherente.}
 
 \rvsource{
 Fuente conceptual: IREB,
-CPRE Foundation Level, v. 3.3.0 (2026).
+CPRE Foundation Level, v. 3.3.0 (2026) \cite{ireb2026}.
 }
 
 \end{frame}
@@ -390,7 +400,7 @@ ReqView apoya principalmente la gestión.}
 
 \rvsource{
 Fuente conceptual: IREB,
-CPRE Foundation Level, v. 3.3.0 (2026).
+CPRE Foundation Level, v. 3.3.0 (2026) \cite{ireb2026}.
 }
 
 \end{frame}
@@ -424,7 +434,7 @@ Del requisito documentado a su seguimiento}
 
 \rvsource{
 Fuente: ReqView,
-documentación oficial, www.reqview.com/doc/.
+documentación oficial \cite{reqviewproject,reqviewreqif}.
 }
 
 \end{frame}
@@ -487,7 +497,7 @@ Organizar · Consultar · Relacionar}
 
 \rvsource{
 Fuente: ReqView,
-documentación oficial, www.reqview.com/doc/.
+documentación oficial \cite{reqviewproject,reqviewattributes}.
 }
 
 \end{frame}
@@ -724,26 +734,16 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 
 \end{frame}
 
-% Diapositivas 10–14:
-% Joseph Saltos.
-
-% Pendiente para la versión grupal:
-% - referencias.bib
-% - Citas IEEE verificadas
-% - Declaración del uso de IA
-% - Evidencias originales de ReqView
-% - Compilación final reproducible
-
 % ==================================================
 % DIAPOSITIVAS 10–14: JOSEPH SALTOS
 % ==================================================
 
 % DIAPOSITIVA 10
-\begin{frame}{Configuración del proyecto en ReqView}
+\begin{frame}[t]{Configuración del proyecto en ReqView}
 	\small
 	
 	\begin{columns}[T,onlytextwidth]
-		\column{0.30\textwidth}
+		\column{0.29\textwidth}
 		\begin{block}{Proyecto}
 			\begin{itemize}
 				\item Plantilla: Blank.
@@ -752,9 +752,9 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 			\end{itemize}
 		\end{block}
 		
-		\column{0.70\textwidth}
+		\column{0.69\textwidth}
 		\centering
-		\includegraphics[width=\linewidth,height=5.5cm,keepaspectratio]{evidencias/EVID-08_Estructura_y_Contenido_Documento_REQ_ReqView.png}
+		\includegraphics[width=\linewidth,height=4.85cm,keepaspectratio]{evidencias/EVID-08_Estructura_y_Contenido_Documento_REQ_ReqView.png}
 	\end{columns}
 	
 	\vfill
@@ -764,11 +764,11 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 \end{frame}
 
 % DIAPOSITIVA 11
-\begin{frame}{Registro y clasificación de los artefactos}
+\begin{frame}[t]{Registro y clasificación de los artefactos}
 	\small
 	
 	\begin{columns}[T,onlytextwidth]
-		\column{0.27\textwidth}
+		\column{0.28\textwidth}
 		\begin{block}{Estados}
 			\begin{itemize}
 				\item N-01: Aprobado.
@@ -777,20 +777,20 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 			\end{itemize}
 		\end{block}
 		
-		\column{0.73\textwidth}
+		\column{0.70\textwidth}
 		\centering
-		\includegraphics[width=\linewidth,height=6cm,keepaspectratio]{evidencias/EVID-06_Estados_Requisitos_ReqView.png}
+		\includegraphics[width=\linewidth,height=4.85cm,keepaspectratio]{evidencias/EVID-06_Estados_Requisitos_ReqView.png}
 	\end{columns}
 	
 \end{frame}
 
 
 % DIAPOSITIVA 12
-\begin{frame}{Trazabilidad entre los artefactos}
+\begin{frame}[t]{Trazabilidad entre los artefactos}
 	\small
 	
 	\begin{columns}[T,onlytextwidth]
-		\column{0.27\textwidth}
+		\column{0.28\textwidth}
 		\begin{block}{Relaciones}
 			\centering
 			\textbf{N-01}
@@ -808,9 +808,9 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 			\textbf{Reference}.
 		\end{block}
 		
-		\column{0.73\textwidth}
+		\column{0.70\textwidth}
 		\centering
-		\includegraphics[width=\linewidth,height=6cm,keepaspectratio]{evidencias/EVID-11_Trazabilidad_RF01_ReqView.png}
+		\includegraphics[width=\linewidth,height=4.85cm,keepaspectratio]{evidencias/EVID-11_Trazabilidad_RF01_ReqView.png}
 	\end{columns}
 	
 	\vfill
@@ -820,7 +820,7 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 \end{frame}
 
 % DIAPOSITIVA 13
-\begin{frame}{Gestión del cambio y análisis de impacto}
+\begin{frame}[t]{Gestión del cambio y análisis de impacto}
 	\small
 	
 	\begin{block}{Cambio realizado}
@@ -832,13 +832,13 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 		\centering
 		\textbf{Historial de RF-01}
 		
-		\includegraphics[width=\linewidth,height=4.1cm,keepaspectratio]{evidencias/EVID-09_Historial_Cambio_RF01_ReqView.png}
+		\includegraphics[width=\linewidth,height=3.15cm,keepaspectratio]{evidencias/EVID-09_Historial_Cambio_RF01_ReqView.png}
 		
 		\column{0.50\textwidth}
 		\centering
 		\textbf{Historial de CP-01}
 		
-		\includegraphics[width=\linewidth,height=4.1cm,keepaspectratio]{evidencias/EVID-10_Historial_Cambio_CP01_ReqView.png}
+		\includegraphics[width=\linewidth,height=3.15cm,keepaspectratio]{evidencias/EVID-10_Historial_Cambio_CP01_ReqView.png}
 	\end{columns}
 	
 	\vspace{0.1cm}
@@ -847,7 +847,7 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 \end{frame}
 
 % DIAPOSITIVA 14
-\begin{frame}{Resultados y conclusiones}
+\begin{frame}[t]{Resultados y conclusiones}
 	\small
 	
 	\begin{columns}[T,onlytextwidth]
@@ -878,14 +878,16 @@ Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 	
 	\vfill
 	
-	\textcolor{rvmuted}{Uso de IA: ChatGPT (GPT-6), como apoyo para diseño  y organizacion del contenido y preparar el código LaTeX. El equipo revisó la información y las evidencias de la configuración realizada.}
+	{\fontsize{7}{9}\selectfont\color{rvmuted}
+Uso de IA: ChatGPT (GPT-6) como apoyo al diseño, organización del contenido
+ y código LaTeX. El equipo revisó la información y las evidencias.}
 	
 \end{frame}
 
 \setbeamertemplate{bibliography item}[text]
 
-\begin{frame}[allowframebreaks]{Referencias}
-\footnotesize
+\begin{frame}[allowframebreaks]{Referencias bibliográficas}
+\fontsize{7.3}{9.2}\selectfont
 \bibliographystyle{IEEEtran}
 \bibliography{referencias}
 \end{frame}
