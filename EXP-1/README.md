@@ -3,378 +3,342 @@
 ## Exposición del primer corte
 
 **Asignatura:** Ingeniería de Requisitos (ISR-401)  
-**Universidad:** Universidad Técnica Estatal de Quevedo  
+**Universidad:** Universidad Técnica Estatal de Quevedo (UTEQ)  
+**Carrera:** Ingeniería de Software  
 **Grupo:** CES  
 **Herramienta seleccionada:** ReqView  
 **Caso de aplicación:** Sistema de Tutorías y Seguimiento Académico
 
-## Integrantes
+---
+
+## 1. Integrantes
 
 - Córdova Carreño Mayra Lucila.
 - Espinoza Pivaque Angelo Maximiliano.
 - Saltos Tello Joseph Orlando.
 
-## Objetivo
+## 2. Objetivo
 
-Analizar ReqView como herramienta de apoyo a la gestión de requisitos,
-explicando sus funcionalidades, ventajas, limitaciones y posibilidades
-de aplicación al Proyecto de Fin de Curso.
+Analizar ReqView como herramienta automatizada de apoyo a la Ingeniería de Requisitos, describiendo sus características, funcionalidades, ventajas, limitaciones y posibilidades de aplicación al Sistema de Tutorías y Seguimiento Académico.
 
-La exposición incluye una comparación con Jira y una demostración
-propia para documentar, clasificar y relacionar requisitos.
+La actividad integra fundamentación conceptual, comparación con Jira, análisis crítico y una demostración práctica mediante artefactos documentados en ReqView.
 
-## Contenido de la exposición
+## 3. Contenido de la exposición
 
-1. Introducción y fundamentación conceptual.
-2. Características y funcionalidades de ReqView.
-3. Ventajas, limitaciones y riesgos.
-4. Comparación con Jira.
-5. Recomendación de uso para el PFC.
-6. Aplicación práctica y demostración.
-7. Conclusiones.
-8. Referencias bibliográficas.
+La presentación aborda los siguientes temas:
 
-## Distribución del trabajo — Grupo CES
+1. Introducción y fundamentos de la gestión de requisitos.
+2. Diferencias entre elicitación y gestión de requisitos.
+3. Definición y funcionalidades de ReqView.
+4. Ventajas, limitaciones y riesgos de la herramienta.
+5. Comparación entre ReqView y Jira.
+6. Análisis crítico y recomendación para el PFC.
+7. Aplicación al Sistema de Tutorías y Seguimiento Académico.
+8. Registro y clasificación de artefactos.
+9. Gestión de cambios y trazabilidad.
+10. Resultados, conclusiones y referencias bibliográficas.
 
-Las responsabilidades se distribuyen entre los tres integrantes
-para preparar la investigación, las diapositivas, la demostración
-y la exposición oral.
+La presentación está organizada en 15 diapositivas, incluida la sección de referencias bibliográficas.
 
-| Integrante | Responsabilidades asignadas | Diapositivas previstas | Tiempo estimado |
+## 4. Distribución del trabajo — Grupo CES
+
+La elaboración de la actividad se distribuyó entre los tres integrantes para promover la participación en la investigación, preparación de materiales y exposición oral.
+
+| Integrante | Responsabilidades | Diapositivas | Tiempo estimado |
 |---|---|---|---|
-| Córdova Carreño Mayra Lucila | Introducción, fundamentación conceptual, definición y funcionalidades de ReqView. Participación en la demostración. | 1–5 | 4 minutos |
-| Espinoza Pivaque Angelo Maximiliano | Ventajas, limitaciones, riesgos, comparación con Jira y recomendación para el PFC. Participación en la demostración. | 6–9 | 4 minutos |
-| Saltos Tello Joseph Orlando | Aplicación práctica, configuración de ReqView, evidencias y conclusiones. Participación en la demostración. | 10–14 | 4 minutos |
+| Córdova Carreño Mayra Lucila | Introducción, fundamentos conceptuales, definición y funcionalidades de ReqView. | 1–5 | 4 minutos |
+| Espinoza Pivaque Angelo Maximiliano | Ventajas, limitaciones, riesgos, comparación con Jira y análisis crítico. | 6–9 | 4 minutos |
+| Saltos Tello Joseph Orlando | Aplicación práctica, documentación de artefactos, trazabilidad, evidencias y conclusiones. | 10–14 | 4 minutos |
 
-La distribución corresponde a la planificación del equipo.
-La ubicación final de las referencias se ajustará durante
-la integración de la presentación.
+La diapositiva 15 corresponde a las referencias bibliográficas.
 
-La versión final debe contener entre 10 y 16 diapositivas,
-incluidas las páginas de referencias, y respetar los
-12 minutos de exposición previstos.
+### 4.1. Responsabilidades compartidas
 
-### Responsabilidades compartidas
+- Investigación y revisión de información técnica.
+- Verificación de fuentes bibliográficas.
+- Revisión de la presentación en LaTeX/Beamer.
+- Compilación y comprobación del documento PDF.
+- Preparación y revisión de la demostración práctica.
+- Ensayo de la exposición oral.
+- Preparación de respuestas a posibles preguntas.
+- Registro de contribuciones mediante commits de GitHub.
 
-- Investigar y contrastar información sobre Ingeniería de Requisitos
-  y las herramientas analizadas.
-- Verificar las referencias y aplicar el formato IEEE.
-- Revisar la precisión técnica y la coherencia de la presentación.
-- Comprobar la compilación del documento LaTeX/Beamer.
-- Obtener evidencias originales de la demostración.
-- Ensayar la exposición y preparar respuestas a preguntas.
-- Registrar las contribuciones mediante commits identificables.
+### 4.2. Seguimiento de contribuciones
 
-### Seguimiento de contribuciones
+Cada integrante registra sus aportes mediante su cuenta personal de GitHub.
 
-Cada integrante registra sus aportes utilizando su propia cuenta
-de GitHub.
+La participación puede verificarse a través de los archivos incorporados, las evidencias y el historial de commits.
 
-Los aportes efectivamente realizados se verificarán mediante
-los archivos, las evidencias, el historial de commits y la
-participación en la exposición.
+El trabajo colaborativo implica que todos los integrantes deben comprender el contenido general de la presentación y las funcionalidades utilizadas en la demostración.
 
-Todos los integrantes deben comprender la presentación completa,
-incluidos los requisitos y las decisiones de la demostración.
+## 5. Demostración práctica de ReqView
 
-## Demostración práctica de ReqView
+### 5.1. Caso de aplicación
 
-### Caso de aplicación
+**Proyecto:** Sistema de Tutorías y Seguimiento Académico.
 
-La demostración se relaciona con el proceso de solicitud
-de tutorías del PFC.
+El caso se centra en la necesidad de un estudiante de solicitar apoyo académico cuando presenta dificultades en una asignatura o tema específico.
 
-Se propone representar una necesidad del estudiante,
-el requisito que responde a esa necesidad y un caso de
-prueba relacionado.
+Para representar este escenario se documentaron en ReqView una necesidad del usuario, un requisito funcional y un caso de prueba.
 
-El ejemplo utiliza datos ficticios y no acredita que
-el sistema del PFC ya haya sido implementado.
+La demostración corresponde a la gestión de requisitos y no a la implementación de un sistema informático funcional.
 
-### Objetivo de la demostración
+### 5.2. Objetivo de la demostración
 
-Mostrar cómo se documentan los elementos del ejemplo,
-se clasifican mediante atributos y se relacionan mediante
-enlaces de trazabilidad en ReqView.
+Mostrar cómo ReqView permite:
 
-### Ejemplo propuesto
+- Documentar necesidades y requisitos.
+- Organizar artefactos mediante documentos estructurados.
+- Asignar atributos y estados.
+- Consultar el historial de modificaciones.
+- Establecer relaciones de trazabilidad.
+- Apoyar el seguimiento de los requisitos.
 
-| ID | Elemento | Descripción |
+### 5.3. Artefactos documentados
+
+| Identificador | Clasificación | Descripción |
 |---|---|---|
-| N-01 | Necesidad | El estudiante necesita solicitar apoyo académico al docente. |
-| RF-01 | Requisito funcional | El sistema deberá permitir al estudiante registrar una solicitud de tutoría indicando la asignatura y el tema que necesita revisar. |
-| CP-01 | Caso de prueba | Registrar una solicitud con asignatura y tema; comprobar que queda guardada y asociada al estudiante. |
+| N-01 | Necesidad del usuario | El estudiante necesita un medio para solicitar apoyo académico a un docente cuando presenta dificultades en una asignatura o tema específico. |
+| RF-01 | Requisito funcional | El sistema deberá permitir al estudiante registrar una solicitud de tutoría indicando la asignatura, el tema que necesita revisar y una descripción de la dificultad que presenta. |
+| CP-01 | Caso de prueba | Verificar que el estudiante pueda registrar una solicitud de tutoría indicando la asignatura, el tema y una descripción de la dificultad, y que el sistema guarde la solicitud asociada al estudiante. |
 
-### Relaciones propuestas
+### 5.4. Clasificación y estados
 
-- RF-01 se relaciona con N-01 para identificar la necesidad
-  que lo origina.
-- CP-01 se relaciona con RF-01 para identificar el requisito
-  que busca verificar.
+En el documento de ReqView se registraron los siguientes estados:
 
-Los tipos de enlace y su dirección se configurarán de manera
-consistente en el proyecto de ReqView.
+| Artefacto | Estado |
+|---|---|
+| N-01 | Aprobado |
+| RF-01 | En revisión |
+| CP-01 | Pendiente |
 
-### Ejemplo de cambio
+Estos estados forman parte del ejemplo académico configurado en la herramienta. No representan una validación formal por parte de un cliente real.
 
-Se propone añadir una descripción de la dificultad a la
-solicitud de tutoría.
+### 5.5. Relaciones de trazabilidad
 
-Este cambio requiere revisar RF-01 y actualizar CP-01
-para comprobar el nuevo dato.
+La demostración establece relaciones entre los tres artefactos:
 
-Registrar el caso de prueba en ReqView no equivale a ejecutarlo
-sobre el sistema desarrollado.
+**N-01 → RF-01 → CP-01**
 
-### Distribución de responsabilidades prácticas
+La necesidad N-01 se relaciona con el requisito funcional RF-01, mientras que este se vincula con el caso de prueba CP-01.
 
-| Integrante | Preparación | Participación en la demostración |
-|---|---|---|
-| Córdova Carreño Mayra Lucila | Revisión de los requisitos candidatos, identificadores y descripciones. | Explicación del registro de requisitos. |
-| Espinoza Pivaque Angelo Maximiliano | Clasificación, atributos y relaciones de trazabilidad. | Explicación de atributos, enlaces y revisión ante cambios. |
-| Saltos Tello Joseph Orlando | Configuración del proyecto e incorporación de los elementos acordados. | Presentación de la estructura y funcionamiento del proyecto. |
+Estas relaciones permiten identificar el origen de un requisito y el elemento destinado a verificar su cumplimiento.
 
-### Procedimiento previsto
+### 5.6. Historial de cambios
 
-1. Presentar el proyecto y su estructura en ReqView.
-2. Mostrar la necesidad, el requisito y el caso de prueba.
-3. Explicar los atributos utilizados.
-4. Mostrar las relaciones de trazabilidad.
-5. Introducir el cambio propuesto y revisar los elementos relacionados.
-6. Explicar los resultados y las limitaciones de la demostración.
+ReqView permite consultar las modificaciones realizadas sobre los artefactos documentados.
 
-### Evidencias
+En la demostración se presentan registros del historial de cambios de RF-01 y CP-01, incluyendo modificaciones de contenido y atributos.
 
-Cuando se complete la configuración, se incorporarán:
+Estas evidencias muestran las funciones de seguimiento y revisión disponibles en la herramienta.
 
-- Capturas originales del proyecto.
-- Elementos documentados y clasificados.
-- Atributos y relaciones de trazabilidad.
-- Archivos del proyecto o exportaciones que permitan revisar el ejemplo.
+**Alcance:** el caso de prueba CP-01 fue documentado en ReqView, pero no se ejecutó sobre un sistema de tutorías implementado.
 
-El ejemplo se mantiene como propuesta hasta que haya sido
-configurado y comprobado en ReqView.
+### 5.7. Participación durante la demostración
 
-No se publicarán datos personales de estudiantes o docentes reales.
+| Integrante | Participación |
+|---|---|
+| Córdova Carreño Mayra Lucila | Presentación del caso y explicación de las necesidades y los requisitos documentados. |
+| Espinoza Pivaque Angelo Maximiliano | Explicación de los atributos, estados y relaciones de trazabilidad. |
+| Saltos Tello Joseph Orlando | Presentación de la estructura del proyecto en ReqView, historial de cambios y evidencias. |
 
-## Archivos de la actividad
+Los tres integrantes participan en la explicación de la aplicación práctica.
+
+## 6. Evidencias de ReqView
+
+Las evidencias originales se encuentran en el directorio `evidencias/`.
+
+| Evidencia | Contenido |
+|---|---|
+| EVID-06 | Estados asignados a los artefactos documentados. |
+| EVID-08 | Estructura y contenido del documento de requisitos. |
+| EVID-09 | Historial de modificaciones del requisito RF-01. |
+| EVID-10 | Historial de modificaciones del caso de prueba CP-01. |
+| EVID-11 | Relación de trazabilidad entre los artefactos. |
+
+Las capturas corresponden al uso de ReqView para el caso académico y permiten contrastar la explicación presentada con los elementos registrados en la herramienta.
+
+No se utilizan datos personales reales de estudiantes o docentes.
+
+## 7. Estructura del repositorio
+
+La actividad se encuentra en el directorio `EXP-1/` del repositorio del grupo CES.
+
+```text
+EXP-1/
+├── README.md
+├── main.tex
+├── main.pdf
+├── referencias.bib
+└── evidencias/
+    ├── EVID-06_Estados_Requisitos_ReqView.png
+    ├── EVID-08_Estructura_y_Contenido_Documento_REQ_ReqView.png
+    ├── EVID-09_Historial_Cambio_RF01_ReqView.png
+    ├── EVID-10_Historial_Cambio_CP01_ReqView.png
+    └── EVID-11_Trazabilidad_RF01_ReqView.png
+```
+
+### 7.1. Descripción de archivos
 
 | Archivo o directorio | Descripción |
 |---|---|
-| `README.md` | Organización del equipo, estado del trabajo e instrucciones de compilación. |
-| `main.tex` | Presentación Beamer con las diapositivas 1–9 y el bloque de referencias. |
-| `referencias.bib` | Fuentes académicas y documentación oficial seleccionadas. |
-| `main.pdf` | Presentación compilada; debe actualizarse después de modificar el código o la bibliografía. |
-| `figuras/` | Directorio previsto para capturas originales de la demostración. |
+| `README.md` | Documentación de la actividad, responsabilidades, evidencias e instrucciones de compilación. |
+| `main.tex` | Código fuente de la presentación elaborada en LaTeX/Beamer. |
+| `main.pdf` | Versión compilada de la presentación. |
+| `referencias.bib` | Base de datos bibliográfica en formato BibTeX. |
+| `evidencias/` | Capturas originales de la demostración práctica en ReqView. |
 
-Las capturas y los artefactos prácticos se incorporarán cuando
-el equipo los haya elaborado y verificado.
+## 8. Referencias bibliográficas
 
-## Referencias bibliográficas
+Las referencias se administran mediante el archivo `referencias.bib`.
 
-El archivo `referencias.bib` reúne las fuentes seleccionadas.
-La bibliografía final debe mostrar únicamente las referencias
-citadas y efectivamente utilizadas.
+Se utilizan fuentes relacionadas con Ingeniería de Requisitos, gestión de requisitos, trazabilidad y documentación oficial de las herramientas analizadas.
 
-### Libros y documentos de referencia
+Entre las fuentes consultadas se encuentran:
 
-- Klaus Pohl — Requirements Engineering: Fundamentals,
-  Principles, and Techniques (2025).
-- IREB — CPRE Foundation Level Syllabus, versión 3.3.0 (2026).
-- IEEE Computer Society — SWEBOK Guide, versión 4.0 (2024).
+- International Requirements Engineering Board (IREB).
+- IEEE Computer Society — SWEBOK Guide.
+- Publicaciones académicas sobre Ingeniería de Requisitos y trazabilidad.
+- Documentación oficial de ReqView.
+- Documentación oficial de Atlassian Jira.
 
-### Artículos científicos
+Las referencias utilizadas en la presentación se citan mediante `\cite{...}` y se presentan utilizando el estilo bibliográfico IEEEtran.
 
-- M. Ozkaya, G. Kardas y M. A. Kose,
-  “An Analysis of the Features of Requirements Engineering Tools,”
-  Systems, 2023.
-  DOI: https://doi.org/10.3390/systems11120576
+Los datos bibliográficos fueron revisados por el equipo para comprobar su correspondencia con las fuentes consultadas.
 
-- M. Ruiz, J. Y. Hu y F. Dalpiaz,
-  “Why don’t we trace? A study on the barriers to software
-  traceability in practice,” Requirements Engineering, 2023.
-  DOI: https://doi.org/10.1007/s00766-023-00408-9
+## 9. Compilación reproducible
 
-### Documentación oficial de ReqView
+### 9.1. Herramientas necesarias
 
-- Set up Requirements Projects.
-- Review Requirements Documents.
-- Export Requirements to ReqIF.
-- Custom Requirement Attributes.
-- Requirements Traceability Links.
+La presentación se elaboró en LaTeX utilizando la clase Beamer.
 
-### Documentación oficial de Atlassian
+Para reproducir el documento se requiere:
 
-- Using Jira for Requirements Management.
+- Una distribución LaTeX, como TeX Live o MiKTeX, o un proyecto de Overleaf.
+- Compilador pdfLaTeX.
+- Procesador bibliográfico BibTeX.
+- Estilo bibliográfico IEEEtran.
 
-La comparación utiliza documentación de Jira Data Center;
-sus afirmaciones no se generalizan automáticamente a todas
-las ediciones de Jira.
+### 9.2. Dependencias
 
-### Integración de citas
+El proyecto requiere la clase `beamer` y los paquetes utilizados en `main.tex`, entre ellos:
 
-Las diapositivas 6–9 incorporan citas numeradas mediante
-`\cite{...}`.
+- `inputenc`
+- `fontenc`
+- `babel` con soporte para español
+- `tgheros`
+- `tikz`
+- `cite`
+- `url`
 
-La integración de las citas numeradas de las diapositivas
-1–5 se completará durante su revisión final.
+También deben estar disponibles los demás paquetes declarados en el preámbulo del documento, así como el archivo `IEEEtran.bst`.
 
-Los artículos científicos fundamentan los criterios de
-análisis y los riesgos generales. La documentación oficial
-respalda las funciones específicas de cada herramienta.
+### 9.3. Compilación local
 
-Antes de entregar, el equipo comprobará:
+Desde la raíz del repositorio, acceder a la carpeta correspondiente:
 
-- Existencia y exactitud de las referencias.
-- Correspondencia entre afirmaciones y fuentes.
-- Al menos cuatro fuentes académicas o normas, con dos
-  de los últimos cinco años, citadas donde se utilizan.
-- Ausencia de citas sin resolver.
-- Legibilidad de la bibliografía final.
-
-## Compilación
-
-La presentación utiliza LaTeX/Beamer en formato panorámico 16:9.
-
-### Archivo principal y herramientas
-
-- **Archivo principal desde la raíz:** `EXP-1/main.tex`.
-- **Compilador:** pdfLaTeX.
-- **Procesador bibliográfico:** BibTeX.
-- **Estilo bibliográfico:** `IEEEtran`.
-- **Archivo bibliográfico:** `EXP-1/referencias.bib`.
-
-### Dependencias
-
-Distribución MiKTeX o TeX Live con:
-
-- Clase `beamer`.
-- Paquetes `inputenc`, `fontenc`, `babel` con soporte para español,
-  `tgheros`, `tikz`, `array`, `tabularx` y `colortbl`.
-- Estilo bibliográfico `IEEEtran.bst`.
-
-### Orden de comandos
-
-Desde la raíz del repositorio, ejecutar uno por uno:
-
-```sh
+```bash
 cd EXP-1
+```
+
+Ejecutar los comandos en el siguiente orden:
+
+```bash
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 bibtex main
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-Si la terminal ya está dentro de `EXP-1`, omitir `cd EXP-1`.
+La primera ejecución de pdfLaTeX genera los archivos auxiliares.
 
-El resultado es `EXP-1/main.pdf`.
+BibTeX procesa las referencias bibliográficas almacenadas en `referencias.bib`.
 
-### Abrir el PDF en Windows
+Las dos ejecuciones posteriores de pdfLaTeX permiten resolver las citas, actualizar la bibliografía y generar la versión final del documento.
 
-Desde la carpeta `EXP-1`:
+El resultado es el archivo `main.pdf`.
 
-```powershell
-Invoke-Item ".\main.pdf"
-```
+### 9.4. Compilación en Overleaf
 
-### Verificación
+1. Abrir el proyecto en Overleaf.
+2. Incorporar `main.tex` y `referencias.bib`.
+3. Incorporar la carpeta `evidencias/` con las imágenes originales.
+4. Seleccionar `main.tex` como documento principal.
+5. Configurar pdfLaTeX como compilador.
+6. Ejecutar la recompilación.
+7. Revisar las diapositivas, imágenes y referencias bibliográficas.
+8. Descargar el archivo PDF generado.
 
-- Todos los comandos deben finalizar sin errores.
-- Las citas deben aparecer numeradas, sin `[?]`.
-- La bibliografía debe corresponder a las citas utilizadas.
-- Los textos, tarjetas y tablas no deben superponerse
-  ni exceder los márgenes.
-- El PDF debe corresponder a los últimos cambios.
+Overleaf puede procesar automáticamente las referencias mediante BibTeX.
 
-Si la compilación falla, puede permanecer un PDF anterior.
+### 9.5. Verificación de la compilación
 
-### Compilación en Overleaf
+Para comprobar el resultado se debe verificar que:
 
-1. Cargar los archivos del proyecto.
-2. Seleccionar `main.tex` como documento principal.
-3. Utilizar pdfLaTeX como compilador.
-4. Recompilar y revisar las citas y referencias.
+- La compilación finalice sin errores.
+- Todas las diapositivas se visualicen correctamente.
+- Las imágenes se incorporen sin errores de ruta.
+- Las citas bibliográficas estén resueltas.
+- La bibliografía aparezca en estilo IEEE.
+- Los textos y elementos gráficos permanezcan dentro de los márgenes.
+- El archivo `main.pdf` corresponda al código fuente actualizado.
 
-Overleaf gestiona las ejecuciones de BibTeX al recompilar.
+### 9.6. Archivos auxiliares
 
-### Diseño
+Durante la compilación pueden generarse archivos como:
 
-Se conserva la plantilla del equipo:
+- `.aux`
+- `.log`
+- `.out`
+- `.nav`
+- `.snm`
+- `.toc`
+- `.bbl`
+- `.blg`
+
+Estos archivos son auxiliares y pueden regenerarse mediante el procedimiento de compilación indicado.
+
+No es necesario incluirlos en el repositorio.
+
+## 10. Criterios de diseño de la presentación
+
+La presentación utiliza:
 
 - Formato panorámico 16:9.
 - Tipografía TeX Gyre Heros.
-- Paleta naranja, marrón y crema.
-- Encabezados y pies uniformes.
-- Tarjetas originales y tarjetas de análisis con altura
-  ajustada al contenido.
-- Tablas con colores de la misma paleta.
+- Paleta de colores inspirada en ReqView.
+- Encabezados y pies de página uniformes.
+- Tarjetas y elementos gráficos para sintetizar conceptos.
+- Capturas originales de la herramienta.
+- Referencias bibliográficas numeradas.
 
-### Archivos auxiliares
+El diseño busca favorecer la legibilidad, la claridad conceptual y la explicación oral durante la exposición.
 
-Los archivos `.aux`, `.log`, `.out`, `.nav`, `.snm`,
-`.toc`, `.bbl` y `.blg` se generan durante la compilación.
+## 11. Uso de inteligencia artificial
 
-No necesitan subirse si pueden regenerarse siguiendo
-estas instrucciones.
+**Herramienta:** ChatGPT (GPT-6).
 
-## Uso de herramientas de inteligencia artificial
+**Finalidad del uso:** apoyo en la organización del contenido, redacción, elaboración y corrección del código LaTeX/Beamer, estructuración del README y revisión de referencias bibliográficas.
 
-Se utilizó ChatGPT como apoyo para organizar el contenido,
-buscar fuentes, preparar propuestas de redacción y elaborar
-y corregir el código LaTeX/Beamer.
+**Verificación:** los integrantes revisaron la información con fuentes académicas y documentación oficial, comprobaron los datos bibliográficos y revisaron el resultado de la compilación en Overleaf.
 
-El equipo debe contrastar las afirmaciones con las fuentes,
-comprobar la compilación y comprender los contenidos que expondrá.
+Las evidencias de ReqView corresponden al trabajo realizado con la herramienta y no fueron generadas artificialmente.
 
-Las referencias se revisaron mediante las páginas de las
-editoriales y la documentación oficial de las herramientas.
-La apariencia de las diapositivas se revisa en el PDF generado.
+La responsabilidad académica sobre el contenido, las decisiones y la exposición corresponde a los integrantes del grupo CES.
 
-La declaración final de la presentación debe identificar
-la herramienta, su versión cuando sea conocida, los usos
-realizados y el procedimiento de verificación.
+## 12. Entrega de la actividad
 
-El ejemplo propuesto no se presenta como una demostración
-ejecutada hasta contar con el proyecto y las evidencias originales.
+El repositorio contiene los archivos correspondientes a la presentación, bibliografía y evidencias de la demostración práctica.
 
-La responsabilidad académica corresponde a los integrantes
-del grupo CES.
+**Repositorio de la actividad:**
 
-## Estado del avance
+https://github.com/mcordovaac2/ISR401-CES/tree/main/EXP-1
 
-Se han desarrollado las diapositivas 1–9:
+La entrega al Sistema de Gestión Académica (SGA) se realiza mediante una constancia de repositorio en formato PDF de una página, que incluye:
 
-- Diapositivas 1–5: introducción, fundamentación conceptual
-  y funcionalidades de ReqView.
-- Diapositivas 6–9: ventajas, limitaciones y riesgos,
-  comparación con Jira y aplicación propuesta al PFC.
+- Identificación de los integrantes.
+- Código y nombre de la actividad.
+- Fecha límite de entrega.
+- Enlace al repositorio de GitHub.
 
-Se añadieron dos artículos científicos de 2023 y documentación
-oficial para respaldar el análisis.
-
-Se incorporó el bloque de bibliografía IEEE y las citas
-de las diapositivas 6–9.
-
-Falta completar:
-
-- La parte práctica de Joseph.
-- Los artefactos y las capturas originales de ReqView.
-- Las conclusiones de la demostración.
-- Las citas numeradas de las diapositivas 1–5.
-- La declaración final de uso de IA.
-- La revisión conjunta y la compilación final.
-
-El equipo ajustará la distribución final para respetar
-el límite de diapositivas y el tiempo de exposición.
-
-## Entrega
-
-En el repositorio se conservarán los archivos fuente,
-la bibliografía, las evidencias públicas y el PDF compilado.
-
-En el SGA se entregará únicamente el PDF de una página
-con los datos informativos, la fecha límite y la URL completa
-del repositorio en una sola línea.
-
-El cierre se rige por el horario de exposición establecido
-para el paralelo y las instrucciones del docente.
+La presentación y demostración se realizan conforme a las indicaciones del docente.
