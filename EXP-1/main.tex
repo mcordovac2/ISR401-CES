@@ -398,5 +398,68 @@ documentación oficial, www.reqview.com/doc/.
 
 \end{frame}
 
+% ==============================================
+% DIAPOSITIVA 5
+% ==============================================
+
+\begin{frame}{Funcionalidades principales}
+
+\vspace{0.35cm}
+
+\begin{center}
+\begin{tikzpicture}
+
+\tikzset{
+  feature/.style={
+    draw=rvline,
+    fill=rvcream,
+    rounded corners=5pt,
+    minimum width=3.65cm,
+    minimum height=1.20cm,
+    text width=3.10cm,
+    align=center,
+    inner sep=0pt,
+    font=\fontsize{11}{13}\selectfont\bfseries,
+    text=rvbrown
+  }
+}
+
+\node[feature] at (-2.05,1.45)
+  {Documentación};
+
+\node[feature] at (2.05,1.45)
+  {Atributos};
+
+\node[feature] at (-2.05,0)
+  {Trazabilidad};
+
+\node[feature] at (2.05,0)
+  {Filtros};
+
+\node[
+  feature,
+  fill=rvorange,
+  draw=rvorange,
+  text=white
+] at (0,-1.45)
+  {Exportación};
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.35cm}
+
+\begin{center}
+{\normalsize\bfseries\color{rvbrown}
+Organizar · Consultar · Relacionar}
+\end{center}
+
+\rvsource{
+Fuente: ReqView,
+documentación oficial, www.reqview.com/doc/.
+}
+
+\end{frame}
+
 
 \end{document}
