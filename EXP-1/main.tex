@@ -247,7 +247,7 @@
   \setlength{\fboxsep}{9pt}%
   \setlength{\fboxrule}{0.5pt}%
   \fcolorbox{rvline}{rvcream}{%
-    \begin{minipage}[t][#1][t]{%
+    \begin{minipage}[t]{%
       \dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
       \raggedright
 
@@ -496,7 +496,10 @@ documentación oficial, www.reqview.com/doc/.
 % Angelo Espinoza.
  % DIAPOSITIVA 6 — VENTAJAS
   
- 
+% ==============================================
+% CONTINUACIÓN DEL EQUIPO
+% ==============================================
+
 \begin{frame}[t]{Ventajas para nuestro proyecto}
 
 \vspace{0.35cm}
@@ -541,15 +544,14 @@ Vincular la necesidad de apoyo académico
 con la solicitud de tutoría y su prueba.\par}
 
 \rvsource{
-Funciones: documentación oficial de ReqView.
-Criterios de análisis:
-Ozkaya, Kardas y Kose (2023).
+Fuentes: \cite{reqviewattributes,reqviewtraceability}.
+Criterios de análisis: \cite{ozkaya2023tools}.
 }
 
 \end{frame}
 
- % DIAPOSITIVA 7 — LIMITACIONES Y RIESGOS
- 
+% DIAPOSITIVA 7 — LIMITACIONES Y RIESGOS
+
 \begin{frame}[t]{Limitaciones y riesgos}
 
 \vspace{0.35cm}
@@ -589,13 +591,13 @@ después de cada cambio.\par}
 \rvsource{
 Riesgos generales de la trazabilidad;
 no exclusivos de ReqView.
-Fuente: Ruiz, Hu y Dalpiaz (2023).
+Fuente: \cite{ruiz2023traceability}.
 }
 
 \end{frame}
 
- % DIAPOSITIVA 8 — COMPARACIÓN
- 
+% DIAPOSITIVA 8 — COMPARACIÓN
+
 \begin{frame}[t]{ReqView frente a Jira}
 
 \vspace{0.22cm}
@@ -656,16 +658,16 @@ y seguir su ejecución. \\
 La elección depende de la necesidad del equipo.\par}
 
 \rvsource{
-Fuentes: documentación oficial de ReqView;
-Atlassian, Using Jira for Requirements Management
-(Jira Data Center).
-Criterios: Ozkaya, Kardas y Kose (2023).
+Fuentes:
+\cite{reqviewproject,reqviewtraceability,jirarequirements}.
+Jira Data Center.
+Criterios: \cite{ozkaya2023tools}.
 }
 
 \end{frame}
 
 % DIAPOSITIVA 9 — RECOMENDACIÓN Y EJEMPLO
- 
+
 \begin{frame}[t]{Aplicación propuesta al PFC}
 
 \vspace{0.35cm}
@@ -717,15 +719,10 @@ Jira si se prioriza el seguimiento de tareas.\par}
 
 \rvsource{
 Ejemplo propio propuesto.
-Mantenimiento de trazabilidad:
-Ruiz, Hu y Dalpiaz (2023).
+Fuentes: \cite{reqviewtraceability,ruiz2023traceability,jirarequirements}.
 }
 
 \end{frame}
-% ==============================================
-% CONTINUACIÓN DEL EQUIPO
-% ==============================================
-
 
 % Diapositivas 10–14:
 % Joseph Saltos.
@@ -736,5 +733,11 @@ Ruiz, Hu y Dalpiaz (2023).
 % - Declaración del uso de IA
 % - Evidencias originales de ReqView
 % - Compilación final reproducible
+\setbeamertemplate{bibliography item}[text]
 
+\begin{frame}[allowframebreaks]{Referencias}
+\footnotesize
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+\end{frame}
 \end{document}
