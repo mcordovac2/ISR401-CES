@@ -18,32 +18,38 @@
 
 Analizar la herramienta ReqView como apoyo a la gestión de requisitos, describiendo sus funcionalidades, ventajas, limitaciones y posibilidades de aplicación al Sistema de Tutorías y Seguimiento Académico.
 
-## Contenido previsto
+## Contenido de la exposición
+
+La presentación se organiza en los siguientes apartados:
 
 1. Introducción y fundamentación conceptual.
 2. Características y funcionalidades de ReqView.
 3. Ventajas y limitaciones.
-4. Comparación con otra herramienta.
-5. Aplicación al Sistema de Tutorías.
-6. Demostración práctica.
-7. Conclusiones y referencias bibliográficas.
+4. Comparación con otra herramienta de gestión de requisitos.
+5. Análisis crítico de la herramienta.
+6. Aplicación al Sistema de Tutorías y Seguimiento Académico.
+7. Demostración práctica en ReqView.
+8. Conclusiones y referencias bibliográficas.
 
 ## Distribución del trabajo — Grupo CES
 
-La exposición GA-SUM-02 (EXP-1) se desarrolla de manera colaborativa entre los tres integrantes del grupo CES. Las responsabilidades se distribuyen para garantizar la participación de todos en la investigación, elaboración de materiales y exposición oral.
+La exposición GA-SUM-02 (EXP-1) se desarrolla de manera colaborativa entre los tres integrantes del grupo CES.
+
+Las responsabilidades se distribuyen con el propósito de garantizar la participación de todos en la investigación, elaboración de materiales, preparación de la demostración práctica y exposición oral.
 
 | Integrante | Responsabilidades asignadas | Diapositivas | Tiempo estimado |
 |---|---|---|---|
-| Córdova Carreño Mayra Lucila | Introducción, fundamentación conceptual, definición, funcionalidades de ReqView, demostración práctica. | 1–5 | 4 minutos |
-| Espinoza Pivaque Angelo Maximiliano | Ventajas, limitaciones, riesgos, comparación con otra herramienta, análisis crítico y demostración práctica. | 6–9 | 4 minutos |
-| Saltos Tello Joseph Orlando | Aplicación al Sistema de Tutorías, preparación de la demostración en ReqView, evidencias, conclusiones y demostración práctica. | 10–14 | 4 minutos |
+| Córdova Carreño Mayra Lucila | Introducción, fundamentación conceptual, definición y funcionalidades de ReqView, participación en la demostración práctica. | 1–5 | 4 minutos |
+| Espinoza Pivaque Angelo Maximiliano | Ventajas, limitaciones, riesgos, comparación con otra herramienta, análisis crítico y participación en la demostración práctica. | 6–9 | 4 minutos |
+| Saltos Tello Joseph Orlando | Aplicación al Sistema de Tutorías, preparación de la demostración en ReqView, evidencias, conclusiones y participación en la demostración práctica. | 10–14 | 4 minutos |
 
 ### Responsabilidades compartidas
 
+- Investigar y contrastar información sobre Ingeniería de Requisitos y ReqView.
 - Verificar las referencias bibliográficas y aplicar el formato IEEE.
 - Revisar conjuntamente el contenido técnico de la presentación.
 - Comprobar la compilación del documento LaTeX/Beamer.
-- Validar que las evidencias correspondan al trabajo realizado.
+- Validar que las evidencias correspondan al trabajo realmente realizado.
 - Ensayar la exposición y preparar respuestas a posibles preguntas.
 - Registrar los aportes mediante commits identificables en GitHub.
 
@@ -61,7 +67,7 @@ Los aportes efectivamente realizados se verificarán mediante los archivos, las 
 
 **Proyecto:** Sistema de Tutorías y Seguimiento Académico.
 
-La demostración práctica se realizará durante la exposición presencial de GA-SUM-02 (EXP-1), utilizando ReqView como herramienta automatizada de apoyo a la Ingeniería de Requisitos.
+La demostración práctica está prevista para la exposición presencial de GA-SUM-02 (EXP-1), utilizando ReqView como herramienta automatizada de apoyo a la Ingeniería de Requisitos.
 
 Se utilizará como ejemplo el Sistema de Tutorías y Seguimiento Académico, cuyo propósito es gestionar solicitudes de tutorías, horarios, confirmaciones, asistencia, temas revisados, recomendaciones y actividades pendientes.
 
@@ -120,15 +126,91 @@ La distribución de responsabilidades busca garantizar una participación equili
 
 ## Archivos de la actividad
 
-- `main.tex`: presentación elaborada en LaTeX/Beamer.
-- `referencias.bib`: referencias bibliográficas.
-- `main.pdf`: presentación compilada.
-- `figuras/`: capturas y evidencias de la demostración.
+| Archivo o directorio | Descripción |
+|---|---|
+| `README.md` | Documentación general, organización del equipo y planificación de la actividad. |
+| `main.tex` | Código fuente de la presentación LaTeX/Beamer. Actualmente contiene las diapositivas 1–5 y los comentarios para la continuación del equipo. |
+| `referencias.bib` | Archivo BibTeX con las fuentes bibliográficas seleccionadas para fundamentar la exposición. |
+| `main.pdf` | Presentación compilada en PDF, pendiente de incorporación al repositorio. |
+| `figuras/` | Directorio previsto para capturas y evidencias originales de la demostración práctica. |
+
+Los archivos y directorios pendientes se incorporarán conforme se complete el trabajo grupal.
+
+## Referencias bibliográficas
+
+La presentación utilizará fuentes académicas y documentación técnica relacionadas con la Ingeniería de Requisitos y las funcionalidades de ReqView.
+
+El archivo `referencias.bib` contiene inicialmente seis entradas bibliográficas:
+
+### Fuentes académicas
+
+1. Klaus Pohl — *Requirements Engineering: Fundamentals, Principles, and Techniques* (2025).
+2. International Requirements Engineering Board (IREB) — *CPRE Foundation Level Syllabus*, versión 3.3.0 (2026).
+3. IEEE Computer Society — *Guide to the Software Engineering Body of Knowledge (SWEBOK Guide)*, versión 4.0 (2024).
+
+### Documentación oficial de ReqView
+
+4. *Set up Requirements Projects*.
+5. *Review Requirements Documents*.
+6. *Export Requirements to ReqIF*.
+
+Las fuentes se han seleccionado por su relación con los fundamentos conceptuales y las funcionalidades presentadas.
+
+Antes de la entrega final se comprobarán los datos bibliográficos, la correspondencia entre las afirmaciones y sus fuentes, y la integración de las citas mediante el formato IEEE.
+
+La bibliografía definitiva incluirá las referencias efectivamente utilizadas durante el desarrollo de la exposición.
 
 ## Compilación
 
-La presentación se elaborará en LaTeX/Beamer. Los comandos de compilación y las dependencias se documentarán cuando se incorporen los archivos definitivos.
+La presentación se desarrolla en LaTeX utilizando la clase Beamer, con formato panorámico 16:9.
+
+### Herramientas y dependencias
+
+- Distribución LaTeX compatible con pdfLaTeX.
+- Clase `beamer`.
+- Paquetes `inputenc`, `fontenc`, `babel`, `tgheros` y `tikz`.
+- Archivo `main.tex`.
+- Archivo `referencias.bib` para la integración bibliográfica posterior.
+
+### Procedimiento de compilación
+
+1. Abrir `main.tex` en Overleaf o en un entorno LaTeX compatible.
+2. Seleccionar pdfLaTeX como compilador.
+3. Compilar el documento.
+4. Revisar el PDF generado y comprobar la correcta visualización de las diapositivas.
+5. Verificar que no existan errores de compilación ni elementos fuera de los márgenes.
+
+Cuando se integren las citas bibliográficas, se documentará el procedimiento adicional de compilación con BibTeX y el estilo IEEE correspondiente.
+
+### Consideraciones de diseño
+
+La presentación utiliza una plantilla personalizada con:
+
+- Formato panorámico 16:9.
+- Tipografía sans serif TeX Gyre Heros.
+- Paleta de colores inspirada en ReqView.
+- Tarjetas de dimensiones fijas para organizar los conceptos.
+- Encabezados y pies de página uniformes.
+- Distribución visual orientada a facilitar la exposición oral.
+
+## Uso de herramientas de inteligencia artificial
+
+Durante la preparación de la actividad se ha utilizado ChatGPT como herramienta de apoyo para la organización de contenidos, la redacción de documentación y la elaboración y revisión del código LaTeX/Beamer.
+
+Los contenidos, referencias y materiales generados con apoyo de inteligencia artificial deberán ser revisados por los integrantes del equipo antes de su incorporación definitiva.
+
+La versión y los usos específicos de las herramientas empleadas se precisarán en la declaración final de la actividad.
+
+La responsabilidad académica sobre los contenidos presentados corresponde a los integrantes del grupo CES.
 
 ## Estado
 
-Actividad en desarrollo. Los archivos y evidencias se incorporarán conforme avance el trabajo del equipo.
+La estructura inicial de la presentación se encuentra incorporada al repositorio.
+
+Se han desarrollado las diapositivas 1–5, correspondientes a la introducción, fundamentación conceptual, definición y funcionalidades principales de ReqView.
+
+El archivo `referencias.bib` contiene las fuentes bibliográficas seleccionadas para su posterior integración mediante citas IEEE.
+
+Se encuentran pendientes las diapositivas 6–14, la preparación y ejecución de la demostración práctica, la incorporación de evidencias originales, la integración bibliográfica y la compilación final del documento grupal.
+
+La actividad continuará desarrollándose de manera colaborativa entre los integrantes del grupo CES.
