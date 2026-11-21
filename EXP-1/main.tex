@@ -1,1 +1,311 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% ==============================================
+% PAQUETES
+% ==============================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{tgheros}
+\usepackage{tikz}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+% ==============================================
+% COLORES INSPIRADOS EN REQVIEW
+% ==============================================
+
+\definecolor{rvorange}{HTML}{D97728}
+\definecolor{rvbrown}{HTML}{734B36}
+\definecolor{rvcream}{HTML}{FFF7F0}
+\definecolor{rvdark}{HTML}{30343A}
+\definecolor{rvmuted}{HTML}{6D737C}
+\definecolor{rvline}{HTML}{E9D8CA}
+
+% ==============================================
+% ESTILO GENERAL
+% ==============================================
+
+\setbeamercolor{normal text}{
+  fg=rvdark,
+  bg=white
+}
+
+\setbeamercolor{frametitle}{
+  fg=rvdark,
+  bg=white
+}
+
+\setbeamercolor{structure}{fg=rvorange}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamersize{
+  text margin left=0.65cm,
+  text margin right=0.65cm
+}
+
+\setbeamerfont{frametitle}{
+  size=\Large,
+  series=\bfseries
+}
+
+% Encabezado
+\setbeamertemplate{frametitle}{
+  \nointerlineskip
+  \begin{beamercolorbox}[
+    wd=\paperwidth,
+    ht=0.95cm,
+    dp=0.15cm,
+    leftskip=0.65cm
+  ]{frametitle}
+    \vfill
+    \insertframetitle
+    \vfill
+  \end{beamercolorbox}
+
+  \hspace*{0.65cm}%
+  {\color{rvorange}\rule{1.5cm}{2pt}}
+}
+
+% Pie de página
+\setbeamertemplate{footline}{
+  \leavevmode
+  \hbox{
+    \begin{beamercolorbox}[
+      wd=.82\paperwidth,
+      ht=2.7ex,
+      dp=1ex,
+      leftskip=.65cm
+    ]{normal text}
+      {\color{rvmuted}\scriptsize
+      ISR-401 \quad | \quad GA-SUM-02
+      \quad | \quad CES}
+    \end{beamercolorbox}
+
+    \begin{beamercolorbox}[
+      wd=.18\paperwidth,
+      ht=2.7ex,
+      dp=1ex,
+      rightskip=.65cm plus1fil
+    ]{normal text}
+      \hfill
+      {\color{rvbrown}\scriptsize
+      \insertframenumber}
+    \end{beamercolorbox}
+  }
+}
+
+% ==============================================
+% TARJETAS FIJAS DE TRES COLUMNAS
+%
+% Ancho: 3.75 cm
+% Alto: 2.65 cm
+% ==============================================
+
+\newcommand{\rvcard}[3]{%
+\begin{tikzpicture}[baseline=(current bounding box.center)]
+  \path[use as bounding box]
+    (0,0) rectangle (3.75,2.65);
+
+  \draw[
+    draw=rvline,
+    fill=rvcream,
+    line width=0.7pt,
+    rounded corners=5pt
+  ] (0.02,0.02) rectangle (3.73,2.63);
+
+  % Número
+  \node[
+    text=rvorange,
+    font=\fontsize{19}{22}\selectfont\bfseries,
+    inner sep=0pt
+  ] at (1.875,2.17) {#1};
+
+  % Título
+  \node[
+    text=rvbrown,
+    font=\fontsize{11}{13}\selectfont\bfseries,
+    text width=3.40cm,
+    align=center,
+    inner sep=0pt
+  ] at (1.875,1.46) {#2};
+
+  % Descripción
+  \node[
+    text=rvdark,
+    font=\fontsize{10}{13}\selectfont,
+    text width=3.40cm,
+    align=center,
+    inner sep=0pt
+  ] at (1.875,0.65) {#3};
+\end{tikzpicture}%
+}
+
+% ==============================================
+% TARJETAS FIJAS DE DOS COLUMNAS
+%
+% Ancho: 5.65 cm
+% Alto: 3.50 cm
+% ==============================================
+
+\newcommand{\rvwidecard}[4]{%
+\begin{tikzpicture}[baseline=(current bounding box.center)]
+  \path[use as bounding box]
+    (0,0) rectangle (5.65,3.50);
+
+  \draw[
+    draw=rvline,
+    fill=rvcream,
+    line width=0.7pt,
+    rounded corners=5pt
+  ] (0.02,0.02) rectangle (5.63,3.48);
+
+  % Número
+  \node[
+    text=rvorange,
+    font=\fontsize{18}{21}\selectfont\bfseries,
+    inner sep=0pt
+  ] at (2.825,2.98) {#1};
+
+  % Título
+  \node[
+    text=rvbrown,
+    font=\fontsize{14}{17}\selectfont\bfseries,
+    inner sep=0pt
+  ] at (2.825,2.35) {#2};
+
+  % Concepto
+  \node[
+    text=rvdark,
+    font=\fontsize{12}{15}\selectfont\bfseries,
+    text width=5.10cm,
+    align=center,
+    inner sep=0pt
+  ] at (2.825,1.57) {#3};
+
+  % Ejemplos
+  \node[
+    text=rvmuted,
+    font=\fontsize{10}{14}\selectfont,
+    text width=5.10cm,
+    align=center,
+    inner sep=0pt
+  ] at (2.825,0.65) {#4};
+\end{tikzpicture}%
+}
+
+% ==============================================
+% FILAS HORIZONTALES
+%
+% \makebox impide que las tarjetas se
+% distribuyan en líneas diferentes.
+% ==============================================
+
+\newcommand{\rvthree}[9]{%
+\noindent
+\makebox[\linewidth][c]{%
+  \rvcard{#1}{#2}{#3}%
+  \hspace{0.20cm}%
+  \rvcard{#4}{#5}{#6}%
+  \hspace{0.20cm}%
+  \rvcard{#7}{#8}{#9}%
+}%
+}
+
+\newcommand{\rvtwo}[8]{%
+\noindent
+\makebox[\linewidth][c]{%
+  \rvwidecard{#1}{#2}{#3}{#4}%
+  \hspace{0.35cm}%
+  \rvwidecard{#5}{#6}{#7}{#8}%
+}%
+}
+
+% ==============================================
+% REFERENCIAS BREVES
+% ==============================================
+
+\newcommand{\rvsource}[1]{%
+  \vfill
+  {\fontsize{7}{9}\selectfont
+   \color{rvmuted}#1}
+}
+
+% ==============================================
+% INICIO
+% ==============================================
+
+\begin{document}
+
+% ==============================================
+% DIAPOSITIVA 1 — PORTADA
+% ==============================================
+
+{
+\setbeamercolor{background canvas}{bg=rvdark}
+
+\begin{frame}[plain]
+
+\begin{tikzpicture}[remember picture,overlay]
+
+  \fill[rvorange]
+    (current page.north west)
+    rectangle
+    ([yshift=-0.16cm]current page.north east);
+
+  \fill[rvbrown]
+    ([xshift=9.6cm]current page.south west)
+    -- (current page.south east)
+    -- (current page.north east)
+    -- cycle;
+
+\end{tikzpicture}
+
+\vspace{0.55cm}
+
+{\color{rvorange}\small\bfseries
+UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO}
+
+\vspace{0.85cm}
+
+{\color{white}
+\fontsize{30}{35}\selectfont
+\bfseries Gestión de requisitos}
+
+\vspace{0.30cm}
+
+{\color{rvorange}
+\fontsize{26}{30}\selectfont
+ReqView}
+
+\vspace{0.50cm}
+
+{\color{white}\large
+Sistema de Tutorías y Seguimiento Académico}
+
+\vfill
+
+{\color{white}\small
+GA-SUM-02 \quad | \quad Ingeniería de Requisitos}
+
+\vspace{0.30cm}
+
+{\color{white}\fontsize{10}{13}\selectfont
+Mayra Córdova \quad · \quad
+Angelo Espinoza \quad · \quad
+Joseph Saltos}
+
+\vspace{0.45cm}
+
+\end{frame}
+}
+
+
+
+\end{document}
 
